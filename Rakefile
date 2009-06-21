@@ -13,8 +13,5 @@ VERSION = ENV['CRUISE_PIPELINE_LABEL']
 task :build do
 end
 
-task :test do
-end
-
 task :package do
 end
