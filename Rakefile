@@ -10,8 +10,10 @@ require 'fileutils'
 
 VERSION = ENV['CRUISE_PIPELINE_LABEL']
 
-task :build do
-end
+namespace :librespeak do
+  task :build do
+  end
 
-task :package do
+  task :package do
+  end
 end
